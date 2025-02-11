@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title -->
+	<title>Furniture Website</title>
+	<!-- Remix Icon -->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <header>
+    <div class="navbar">
+       <div class="logo">
+       	<img src="images/logo.png">
+       </div>
+
+       <nav>
+       	<ul class="nav-links">
+       		<li><a href="#" class="nav-link active">Home</a></li>
+       		<li><a href="#" class="nav-link">Collection</a></li>
+       		<li><a href="#" class="nav-link">About US</a></li>
+       		<li><a href="#" class="nav-link">Contact</a></li>
+       	</ul>
+       </nav>
+
+
+       <div class="right-section">
+       	<button class="btn sign-in">Sign In</button>
+       	<i class="ri-shopping-cart-2-line cart-icon"></i>
+       	<i class="ri-search-line search-icon"></i>
+       	<div class="menu-icon" id="menuIcon"><i class="ri-menu-4-line"></i></div>
+       </div>
+    </div>
+  </header>
+
+  <div class="container">
+	<!--============ 
+		  Right Section 
+		==============-->
+	  <div class="image__section">
+	  	<!-- Plant Image -->
+       <div class="product-image">
+       	<img src="images/plant1.png" alt="Plant" class="plant">
+       	<button class="plus-btn plant-plus-btn" data-item="plant">+</button>
+       	<div id="plant-card" class="image-options"></div>
+       </div>
+      <!-- Table Image -->
+       <div class="product-image">
+       	<img src="images/table1.png" alt="Table" class="table">
+       	<button class="plus-btn table-plus-btn" data-item="table">+</button>
+       	<div id="table-card" class="image-options"></div>
+       </div>
+      <!-- Lamp Image -->
+       <div class="product-image">
+       	<img src="images/lamp1.webp" alt="Lamp" class="lamp">
+       	<button class="plus-btn lamp-plus-btn" data-item="lamp">+</button>
+       	<div id="lamp-card" class="image-options"></div>
+       </div>
+      <!-- Sofa Image -->
+       <div class="product-image">
+       	<img src="images/sofa1.webp" alt="Sofa" class="sofa">
+       	<button class="plus-btn sofa-plus-btn" data-item="sofa">+</button>
+       	<div id="sofa-card" class="image-options"></div>
+       </div>
+
+	  </div>
+
+	<!--=============
+	   Left Section
+	 ============= -->
+	  <div class="content__section">
+		   <h5>Collection of The Year</h5>
+		   <h1>FurniDecor<sup>Decor</sup></h1>
+		   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		   <div class="card">
+		   	  <div class="card-content" id="cardContent">
+		   	  	<button class="play-icon" id="playIcon"><i class="ri-play-large-fill"></i></button>
+		   	  	<h4>Review Video</h4>
+		   	  	<span>Decor 2024</span>
+		   	  </div>
+		   	  <img src="images/sofa1.webp">
+		   </div>
+
+		   <div class="video-card" id="videoCard">
+		   	<div class="video-content">
+		   		<video controls autoplay>
+		   			<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+		   		</video>
+		   		<button class="close-btn" id="closeVideo"><i class="ri-close-large-line"></i></button>
+		   	</div>
+		   </div>
+	  </div>
+  </div>
+
+  <div class="container-links">
+      <div class="social-links">
+      	<a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
+        <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
+        <a href="#" target="_blank"><i class="ri-instagram-fill"></i></a>
+      </div>
+
+      <button class="btn order-now">Order Now</button>
+  </div>
+
+
+
+     <!--=============
+     	   Script JS 
+     	==============-->
+     <script type="text/javascript" src="script.js"></script>
+
+
+
+</body>
+</html>
